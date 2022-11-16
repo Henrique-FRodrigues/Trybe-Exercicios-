@@ -1,0 +1,30 @@
+mkdir unix_tests_search
+cd unix_tests_search
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+cat countries.txt
+less countries.txt
+Aperte a tecla "barra de espaço", quantas vezes for necessário para chegar na última página, onde encontrará Zambia.
+Aperte a tecla "q" para finalizar o processo de paginação.
+less countries.txt
+/Zambia
+Aperte a tecla "q" para finalizar o processo de paginação.
+grep 'Brazil' countries.txt
+grep -i 'brazil' countries.txt
+touch phrases.txt
+cat > phrases.txt
+Hakuna matata.
+Bom dia!!!
+Olá.
+Eu amo pizza.
+Tenho dois filhos lindos, Miguel e Pedro.
+Aperte a tecla "Ctrl+d" para finalizar.
+clear
+grep -iv 'fox' phrases.txt
+wc -w phrases.txt
+wc -l phrases.txt
+touch empty.tbt empty.pdf
+ls -la
+ls -l *txt
+ls -l *t?t
+man ls
+Aperte a tecla "q" para finalizar.
