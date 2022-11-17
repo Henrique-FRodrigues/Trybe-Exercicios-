@@ -7,3 +7,8 @@
   
   
   Estudante na Trybe _(https://www.betrybe.com/)_
+
+
+Desenvolvimento | Hard Skills
+--------------- | ---------------
+Habilidade      |  Unix & Bash
