@@ -1,0 +1,66 @@
+mkdir unix_tests_skills
+cd unix_tests_skills
+touch skills2.txt
+cat > skills2.txt
+
+Internet
+Unix
+Bash
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+ cat >> skills2.txt
+
+Nadar
+Cozinhar
+Dirigir Motocicleta
+Pintar
+Gerenciar
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+sort < skills2.txt 
+wc -l skills2.txt 
+head -3 skills2.txt | sort | cat > top_skills.txt
+cat top_skills.txt
+touch phrases2.txt
+cat > phrases2.txt 
+
+Mãe eu te amo!!!
+Meu gato se chama Luis.
+Tenho dois filhos lindos.
+Amo jogar Tibia com meus amigos.
+Vi a final do campeonato de League of Legends ao vivo e achei que foi os cinco melhores jogos que eu já vi na minha vida.
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+cat >> phrases2.txt 
+
+Brasil um país de todos.
+Fumar faz mal a saúde.
+Moro no brasil.
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+grep -i br phrases2.txt | wc -l
+grep -iv br phrases2.txt | wc -l
+cat >> phrases2.txt
+
+Chile
+Estados Unidos
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+touch countries.txt
+cat > countries.txt
+
+Argentina
+Espanha
+Italia
+
+Aperte a tecla "Ctrl+d" para finalizar.
+
+cat phrases2.txt countries.txt > bunch_of_things.txt
+sort -o bunch_of_things.txt bunch_of_things.txt 
+
+>> O ultimo exercicio precisou consultar o gabarito. <<
