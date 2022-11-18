@@ -1,0 +1,34 @@
+ps -a
+sleep 30 &
+jobs
+fg % 1
+^C
+Ápos clicar (Ctrl+c) automaticamente o processo é finalizado/cancelado.
+
+sleep 30
+^Z  
+Ápos clicar (Ctrl+z) automaticamente o processo é parado.    
+bg %1
+jobs
+sleep 300 &
+sleep 200
+^Z  
+Ápos clicar (Ctrl+z) automaticamente o processo é parado.
+
+sleep 100
+^Z  
+Ápos clicar (Ctrl+z) automaticamente o processo é parado.
+
+jobs
+fg %1
+^Z
+Ápos clicar (Ctrl+z) automaticamente o processo é parado.
+
+jobs
+bg %3
+kill %1
+kill %2
+kill %3
+jobs
+ps -a
+

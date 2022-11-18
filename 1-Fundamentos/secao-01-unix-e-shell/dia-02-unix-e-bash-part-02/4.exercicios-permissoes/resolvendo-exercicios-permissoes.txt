@@ -1,0 +1,22 @@
+mkdir unix_tests_permissions
+cd unix_tests_permissions/
+ls -l
+touch arquivo_teste.txt
+ls -l
+chmod a+rw- arquivo_teste.txt
+ls -l
+
+Resultado esperado está igual da proposta:
+-rw-rw-rw- 1 kawamate kawamate 0 nov 18 00:15 arquivo_teste.txt
+
+chmod a--w- arquivo_teste.txt
+ls -l
+
+Resultado esperado está igual da proposta:
+-r--r--r-- 1 kawamate kawamate 0 nov 18 00:15 arquivo_teste.txt
+
+chmod 644 arquivo_teste.txt
+ls -l
+
+Resultado esperado está igual da proposta:
+-rw-r--r-- 1 kawamate kawamate 0 nov 18 00:15 arquivo_teste.txt
