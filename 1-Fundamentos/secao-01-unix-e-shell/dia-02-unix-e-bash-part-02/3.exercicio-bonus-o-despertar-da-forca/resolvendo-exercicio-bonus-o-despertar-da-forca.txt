@@ -1,0 +1,14 @@
+cmatrix (letrinhas verde que nem o filme do matrix caindo como se fossem uma chuva.)
+sl (passa um trem maior na sua tela) ou sl -f (trenzinho passando.)
+
+fortune | cat > fortune.txt
+wc -w fortune.txt
+cat fortune.txt  | cowsay
+
+factor
+42
+^D
+Ápos clicar o (Ctrl + d) finaliza o processo de descoberta, a ação do factor é definida pela multiplicação dos números primos, dentro do mesmo, darão o número digitado. Exemplo se tivesse digitado o número 121, a lógica mais facil é que (11 * 11 = 121), outro exemplo 1000: (2*2*2*5*5*5 = 1000).
+
+rev fortune.txt (aparecerá o conteúdo de fortune escrito de trás pra frente.)
+telnet towel.blinkenlights.nl (filme do star wars)
