@@ -1,0 +1,15 @@
+mkdir testando-git
+ls
+cd testando-git/
+ls -la
+git init 
+ls -la
+code .
+touch README.md
+ls -la
+clear
+git checkout -b adiciona-readme
+git add .
+git commit -m "escrevi no readme"
+git log
+git checkout main
