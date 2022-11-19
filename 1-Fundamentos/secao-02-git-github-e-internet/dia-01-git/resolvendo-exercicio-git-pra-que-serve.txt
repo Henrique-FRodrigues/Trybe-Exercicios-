@@ -13,3 +13,25 @@ git add .
 git commit -m "escrevi no readme"
 git log
 git checkout main
+
+git checkout adiciona-readme
+touch infos.txt
+echo "Adicionando conteúdo no infos.txt" > infos.txt 
+cat infos.txt
+git add .
+git commit -m "Criando o info.txt e acrescentando conteúdo nele"
+git push
+git push --set-upstream origin adiciona-readme
+echo "Henrique Fernandes Rodrigues" > infos.txt
+cat infos.txt
+git checkout -b adiciona-infos
+touch README.md
+git add .
+git commit -m "Escrevi sobre o que é ao mer o modo de se versionar um repositório no arquivo README.md"
+git push --set-upstream origin adiciona-infos
+git checkout adiciona-readme 
+git merge
+git checkout main
+git merge
+git push
+
