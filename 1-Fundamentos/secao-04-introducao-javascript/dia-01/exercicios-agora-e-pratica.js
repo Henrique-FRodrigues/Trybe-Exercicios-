@@ -38,3 +38,23 @@ else if (d > c){
 else{
     console.log('Nenhum dos números é maior que o outro');
 }
+
+//Utilize if/else para escrever um código que retorne o maior de três números. 
+//Defina, no começo do seu código, três constantes com os valores que serão comparados. 
+
+let idade1 = 21;
+let idade2 = 12;
+let idade3 = 45;
+
+if (idade1 > idade2 && idade1 > idade3) {
+    console.log(idade1);
+} else if (idade2 > idade3 && idade2 > idade1) {
+    console.log(idade2);
+} else if (idade3 > idade2 && idade3 > idade1) {
+    console.log(idade3);
+} else {
+    console.log("erro");
+}
+
+
+console.log(1);
