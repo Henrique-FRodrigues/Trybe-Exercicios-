@@ -42,9 +42,9 @@ else{
 //Utilize if/else para escrever um código que retorne o maior de três números. 
 //Defina, no começo do seu código, três constantes com os valores que serão comparados. 
 
-let idade1 = 21;
-let idade2 = 12;
-let idade3 = 45;
+const idade1 = 21;
+const idade2 = 12;
+const idade3 = 45;
 
 if (idade1 > idade2 && idade1 > idade3) {
     console.log(idade1);
@@ -56,5 +56,18 @@ if (idade1 > idade2 && idade1 > idade3) {
     console.log("erro");
 }
 
+//Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, 
+//retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem
+//positivo e nem negativo retorne “zero”. 
 
-console.log(1);
+let number = -12;
+
+if (number > 0) {
+    console.log("Positivo");
+}
+else if (number < 0){
+   console.log("Negative");
+}
+else {
+    console.log("Zero");
+}
