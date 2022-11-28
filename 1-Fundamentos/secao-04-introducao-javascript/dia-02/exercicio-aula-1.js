@@ -1,3 +1,24 @@
+let candidata = 69;
+
+if (candidata >= 80) {
+    console.log("Parabéns, você foi aprovada(o)!");
+    } 
+    else if (candidata < 80 && candidata >= 60){
+    console.log("Você está na nossa lista de espera");
+    }
+    else if (candidata < 60)
+    {
+    console.log("Você foi reprovado(a)");
+    }
+    else {
+    console.log("error");
+}
+    
+
+
+
+
+
 let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
 
 //tasksList.push("Cuidar do bebê"); //acrescenta mais um valor para o array no final dos valores
