@@ -99,10 +99,9 @@ else {
 //Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
 //Exemplo: bishop (bispo) -> diagonals (diagonais)
 //const sentence = 'DoG';
-//console.log(sentence.toLowerCase());
-// expected output: "dog"**
-const bispo = "bispo";
+//console.log(sentence.toLowerCase()); expected output: "dog"
 
+const bispo = "bisPo";
 switch (bispo.toLocaleLowerCase()){
     case "bispo":
         console.log("O bispo = diagonais");
@@ -110,3 +109,25 @@ switch (bispo.toLocaleLowerCase()){
     default:
         console.log("Essa peça não é o bispo");
 }
+
+
+//Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100)
+//em conceitos de A a F. Siga essas regras:
+//Porcentagem >= 90 -> A
+//Porcentagem >= 80 -> B
+//Porcentagem >= 70 -> C
+//Porcentagem >= 60 -> D
+//Porcentagem >= 50 -> E
+//Porcentagem < 50 -> F
+//O código deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou 
+//maior que 100.
+
+
+//exercicio bonus
+const y = 15;
+const x = 25;
+const j = 53;
+if ( (y%2) === 0 || (x%2) === 0 || (j%2) === 0){
+console.log("true");}
+else {
+console.log("false");}
