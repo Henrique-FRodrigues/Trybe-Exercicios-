@@ -78,6 +78,7 @@ else {
 //mensagem de erro.
 //Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus.
 //Um ângulo será considerado inválido se não tiver um valor positivo.
+
 const A = 45;
 const B = 75;
 const C = 60;
@@ -97,7 +98,15 @@ else {
 //minúsculas (lower case).
 //Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
 //Exemplo: bishop (bispo) -> diagonals (diagonais)
-//***const sentence = 'DoG';
+//const sentence = 'DoG';
 //console.log(sentence.toLowerCase());
 // expected output: "dog"**
+const bispo = "bispo";
 
+switch (bispo.toLocaleLowerCase()){
+    case "bispo":
+        console.log("O bispo = diagonais");
+        break;
+    default:
+        console.log("Essa peça não é o bispo");
+}
