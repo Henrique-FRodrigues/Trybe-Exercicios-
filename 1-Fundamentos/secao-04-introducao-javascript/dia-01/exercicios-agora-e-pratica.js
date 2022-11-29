@@ -24,6 +24,8 @@ console.log(dividao);
 let modulo = a % b;
 console.log(modulo);
 
+console.log("----------------------------------");
+
 //Utilize if/else para escrever um código que retorne o maior de dois números. 
 //Defina, no começo do seu código, duas constantes com os valores que serão comparados. 
 
@@ -38,6 +40,8 @@ else if (d > c){
 else{
     console.log('Nenhum dos números é maior que o outro');
 }
+
+console.log("----------------------------------");
 
 //Utilize if/else para escrever um código que retorne o maior de três números. 
 //Defina, no começo do seu código, três constantes com os valores que serão comparados. 
@@ -56,6 +60,8 @@ if (idade1 > idade2 && idade1 > idade3) {
     console.log("erro");
 }
 
+console.log("----------------------------------");
+
 //Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, 
 //retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem
 //positivo e nem negativo retorne “zero”. 
@@ -71,6 +77,8 @@ else if (number < 0){
 else {
     console.log("Zero");
 }
+
+console.log("----------------------------------");
 
 //Utilize if/else para escrever um código que defina três constantes com os valores dos três 
 //ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um 
@@ -89,6 +97,8 @@ if (A + B + C === 180  && A > 0 && B > 0 && C > 0) {
 else {
     console.log(false);
 }
+
+console.log("----------------------------------");
 
 //Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne 
 //os movimentos que ela faz.
@@ -110,6 +120,7 @@ switch (bispo.toLocaleLowerCase()){
         console.log("Essa peça não é o bispo");
 }
 
+console.log("----------------------------------");
 
 //Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100)
 //em conceitos de A a F. Siga essas regras:
@@ -147,12 +158,33 @@ else if (nota < 50 && nota >= 0) {
 else {
     console.log("Erro");
 }
-
+console.log("----------------------------------");
 //exercicio bonus
-const y = 15;
-const x = 25;
-const j = 53;
-if ( (y%2) === 0 || (x%2) === 0 || (j%2) === 0){
-console.log("true");}
+//Utilize if/else para escrever um código que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele deve retornar false.
+//Bonus: use somente um if.
+
+const y = 16;
+const x = 20;
+const j = 50;
+let par = (y%2) === 0 || (x%2) === 0 || (j%2) === 0;
+if (par === true) {
+    console.log("Um ou mais números são pares");
+}
 else {
-console.log("false");}
+    console.log("Nenhum numero é par");
+}
+
+console.log("----------------------------------");
+
+//Utilize if/else para escrever um código que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele deve retornar false.
+//Bonus: use somente um if.
+
+let impar = (y%2) !== 0 || (x%2) !== 0 || (j%2) !== 0;
+if (impar === true){
+    console.log("Um ou mais números são impares");
+}
+else {
+    console.log("Nenhum número é ímpar");
+}
+
+console.log("----------------------------------");
