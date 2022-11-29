@@ -60,3 +60,13 @@ let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 for(let contador = 0; contador <= groceryList.length - 1; contador += 1){
     console.log(groceryList[contador]);
 }
+
+console.log("-------------------------------");
+
+//percorra os nomes da array aprovados e imprada boas vindas com todos os nomes da lista
+let aprovados = ['Joana', 'Maria', 'Ronaldo'];
+//console.log(aprovados);
+for (let bemVindos = 0; bemVindos < aprovados.length; bemVindos ++)
+{
+    console.log("Bem vindo aos novos alunos(as) da Trybe " + aprovados[bemVindos] + "!");
+}
