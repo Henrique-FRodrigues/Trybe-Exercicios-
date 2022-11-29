@@ -49,7 +49,14 @@ console.log("-------------------------------");
 //fazendo a tabuada de 7
 
 let numeroTabuada = 7;
-for (let multiplicador = 1; multiplicador < 11; multiplicador += 1)
-{
+for (let multiplicador = 1; multiplicador < 11; multiplicador += 1){
     console.log(numeroTabuada * [multiplicador]);
+    console.log("************");
+}
+
+console.log("-------------------------------");
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+for(let contador = 0; contador <= groceryList.length - 1; contador += 1){
+    console.log(groceryList[contador]);
 }
