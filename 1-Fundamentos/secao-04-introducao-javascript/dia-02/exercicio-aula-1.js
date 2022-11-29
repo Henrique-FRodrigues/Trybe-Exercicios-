@@ -10,13 +10,18 @@ let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
 let indexOfTask = tasksList.indexOf('Reunião');
 console.log(indexOfTask); //  Demonstra o numero da array de tal frase, no caso 1
 
+console.log("-------------------------------");
+//Demonstrar todos os indices do tasksList
 for (let index = 0; index < tasksList.length; index +=1){
     console.log(tasksList[index]);
 }
 
+console.log("-------------------------------");
 
 let searchForFirstTask = tasksList[0];
 console.log("Procurando o primeiro item da lista: " + searchForFirstTask);
+
+console.log("-------------------------------");
 
 let searchForLastTask = tasksList[tasksList.length - 1];
 console.log("Procurando o ultimo item da lista: " + searchForLastTask);
@@ -28,11 +33,23 @@ console.log(tasksList.length);
 //[conteudo] se x === y, sendo <x> antes do [ ] e <y> depois.
 //>>>>>>> tentar achar por outro for <<<<<<<<<<<<<
 
+console.log("-------------------------------");
+
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
 //Obtenha o valor “Serviços” do array menu: 
 console.log(menuServices);
 
-
+//Procure o índice do valor “Portfólio” do array menu: 
 let indexOfPortfolio = menu.indexOf('Portfólio');
 console.log(indexOfPortfolio);
+
+console.log("-------------------------------");
+
+//fazendo a tabuada de 7
+
+let numeroTabuada = 7;
+for (let multiplicador = 1; multiplicador < 11; multiplicador += 1)
+{
+    console.log(numeroTabuada * [multiplicador]);
+}
