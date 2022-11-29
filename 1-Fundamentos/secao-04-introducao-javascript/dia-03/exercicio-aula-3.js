@@ -59,3 +59,12 @@ for(let indexSoma = 0; indexSoma <= somaDeTudo; indexSoma +=1){
     somandoTudo += indexSoma;
 };
 console.log(somandoTudo);
+
+console.log("---------------------------");
+
+let items = ["Big Mac", "Big Tasty", "Batata Frita"];
+let prices = [10, 20, 30, 40];
+
+for (indexTudo = 0; indexTudo < items.length && indexTudo < prices.length; indexTudo +=1){
+    console.log(items[indexTudo] + " = R$" + prices[indexTudo]);
+}
