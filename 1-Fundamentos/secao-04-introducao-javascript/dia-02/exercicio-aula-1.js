@@ -70,3 +70,61 @@ for (let bemVindos = 0; bemVindos < aprovados.length; bemVindos ++)
 {
     console.log("Bem vindo aos novos alunos(as) da Trybe " + aprovados[bemVindos] + "!");
 }
+
+console.log("-------------------------------");
+
+//conceito de for/of
+let numeros = [1,2,3,4,5];
+for(let numero of numeros) {
+  console.log(numero);
+}
+// resultado: 
+//1
+//2
+//3
+//4
+//5
+
+console.log("-------------------------------");
+
+for(let aproved of aprovados) {
+    console.log(aproved);
+  }
+
+console.log("-------------------------------");
+
+let word = 'Hello';
+for (let letter of word) {
+  console.log(letter);
+}
+// resultado:
+// "H"
+// "e"
+// "l"
+// "l"
+// "o"
+
+console.log("-------------------------------");
+
+//adicionando + 1 em todos os valores entretando não irá alterar o valor da array somente imprimir um dado adicionando o outro
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+sum += 1
+  //pode ser também sum *= 3;
+  //30
+  //60
+  //90
+  console.log(sum);
+}
+// 11
+// 21
+// 31
+
+console.log("-------------------------------");
+
+//Utilize o for/of para imprimir os elementos da lista names com o console.log()
+
+
+for (let showNames of aprovados){
+    console.log(showNames);
+}
