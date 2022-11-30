@@ -68,10 +68,52 @@ let prices = [10, 20, 30, 40];
 for (indexTudo = 0; indexTudo < items.length && indexTudo < prices.length; indexTudo +=1){
     console.log(items[indexTudo] + " = R$" + prices[indexTudo]);
 }
+let numebrPi = 3.2554888;
+console.log(numebrPi.toFixed(2));
 
+/ // Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+// const n=5;
+// let asterisco=[];
 
-let fatorial = 7;
+// for(let nasteriscos=0; nasteriscos<n; nasteriscos+=1){
+// asterisco.push('*');
+// }
 
-for (let index = 1; index <= 7; index =+1){
-    console.log(fatorial + index);
-}
+// for(let linha=0; linha<n; linha+=1){
+// console.log(asterisco.join(''));
+// }
+
+// let fatorial = 1;
+
+// for (let index = 10; index > 0; index -= 1) {
+// fatorial *= index;
+// }
+
+// console.log(fatorial); 
+
+// let fatorial = 1;
+
+// for (let index = 10; index > 0; index -= 1) {
+// fatorial-=index;
+// console.log(fatorial);
+// }
+
+// console.log(fatorial); 
+
+// let fatorial = 55;
+
+// for (let index = 10; index > 0; index -= 1) {
+// console.log(fatorial-=index);
+// }
+
+//console.log(fatorial); 
+
+// Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+
+// const n=10;
+// let linha="*";
+// let nespacos=Math.floor((n-1)/2); //2
+// let espacos=[];
+// //console.log(espacos+linha+espacos);
+
+// 
