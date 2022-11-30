@@ -117,8 +117,24 @@ let meuObjeto = {
         age1 : 34,
         medals : { 
                 golden: 2,
-                silver: 3 }
-    }
+                silver: 3,},
+    },
 };
+
+ 
 //let meuObjeto = chave;
+console.log(meuObjeto);
 console.log('A jogadora ' + meuObjeto.chave.name1 + ' ' + meuObjeto.chave.lastName1 + ' tem ' + meuObjeto.chave.age1 + ' anos de idade.');
+
+console.log('---------------------');
+
+//Acesse a chave bestInTheWorld, usando a sintaxe meuObjeto['chave'], e faça um console.log no 
+//seguinte formato: “A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes”. 
+meuObjeto.chave.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
+console.log('A jogadora ' + meuObjeto.chave.name1 + ' ' + meuObjeto.chave.lastName1 + " foi eleita a melhor do mundo por " + meuObjeto.chave.bestInTheWorld.length + ' vezes.');
+
+console.log('---------------------');
+
+//Acesse a chave medals, usando a sintaxe meuObjeto.chave, e faça um console.log no seguinte 
+//formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”. 
+console.log('A jogadora possui ' + meuObjeto.chave.medals.golden + ' medalhas de ouro e ' + meuObjeto.chave.medals.silver + ' medalhas de prata.');
