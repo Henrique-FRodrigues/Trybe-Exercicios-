@@ -138,3 +138,26 @@ console.log('---------------------');
 //Acesse a chave medals, usando a sintaxe meuObjeto.chave, e faça um console.log no seguinte 
 //formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”. 
 console.log('A jogadora possui ' + meuObjeto.chave.medals.golden + ' medalhas de ouro e ' + meuObjeto.chave.medals.silver + ' medalhas de prata.');
+
+console.log('---------------------');
+
+//Depois de conhecer o laço for/in, o código que mostra as marcas de carros presentes em um Array é:
+
+let cars = ['Saab', 'Volvo', 'BMW'];
+
+for (let index of cars) {
+  console.log(index);
+}
+
+console.log('---------------------');
+
+//Um outro exemplo é a iteração nas chaves de um objeto:
+let car1 = {
+    type: 'Fiat',
+    model: '500',
+    color: 'white',
+  };
+  
+  for (let index2 in car1) {
+    console.log(index2, car1[index2]);
+  }
