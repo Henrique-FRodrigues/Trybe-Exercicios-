@@ -145,8 +145,8 @@ console.log('---------------------');
 
 let cars = ['Saab', 'Volvo', 'BMW'];
 
-for (let index of cars) {
-  console.log(index);
+for (let index in cars) {
+  console.log(cars[index]);
 }
 
 console.log('---------------------');
@@ -160,4 +160,18 @@ let car1 = {
   
   for (let index2 in car1) {
     console.log(index2, car1[index2]);
+  }
+
+  console.log('---------------------');
+
+//Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, 
+//substituindo o xxxxx pelo nome em questão. 
+let namesDoExercicio = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for (let percorrerOsNomes in namesDoExercicio){
+    console.log('Olá ' + namesDoExercicio[percorrerOsNomes]);
   }
