@@ -68,3 +68,10 @@ let prices = [10, 20, 30, 40];
 for (indexTudo = 0; indexTudo < items.length && indexTudo < prices.length; indexTudo +=1){
     console.log(items[indexTudo] + " = R$" + prices[indexTudo]);
 }
+
+
+let fatorial = 7;
+
+for (let index = 1; index <= 7; index =+1){
+    console.log(fatorial + index);
+}
