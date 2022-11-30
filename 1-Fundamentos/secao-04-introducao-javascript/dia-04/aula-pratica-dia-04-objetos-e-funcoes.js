@@ -175,3 +175,15 @@ let namesDoExercicio = {
   for (let percorrerOsNomes in namesDoExercicio){
     console.log('Olá ' + namesDoExercicio[percorrerOsNomes]);
   }
+
+  console.log('---------------------');
+
+  //Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto. 
+  let car3 = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+  for (let leituraCarros in car3){
+    console.log('O nome das chaves são < ' + leituraCarros + ' > e nome dos carros < ' + car3[leituraCarros] + ' >');
+  }
