@@ -109,7 +109,7 @@ console.log("-------------------------------");
 //adicionando + 1 em todos os valores entretando não irá alterar o valor da array somente imprimir um dado adicionando o outro
 let arrOfNumbers = [10, 20, 30];
 for (let sum of arrOfNumbers) {
-sum += 1
+  sum += 1
   //pode ser também sum *= 3;
   //30
   //60
@@ -126,4 +126,24 @@ console.log("-------------------------------");
 
 for (let showNames of aprovados){
     console.log(showNames);
+}
+
+console.log("-------------------------------");
+
+let counter = 0; //se o numero fosse maior que o do while daria um looping infinito, tem que se certificar que o numero é menor
+
+while(counter !== 5) { 
+  counter += 1;
+  console.log(counter);
+}
+
+console.log("-------------------------------");
+
+function dice () { 
+  return Math.ceil(Math.random() * 6);
+}
+let d1 = dice();
+let d2 = dice();
+while (d1 === d2) {
+  d2 = dice();
 }
