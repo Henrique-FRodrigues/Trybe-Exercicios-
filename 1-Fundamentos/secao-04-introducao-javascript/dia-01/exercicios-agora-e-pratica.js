@@ -244,7 +244,7 @@ console.log("----------------------------------");
 //Resultado: R$ 2.612,55.
 
 
-let salarioBruto = 3000;
+let salarioBruto = 2310;
 
 let salarioBase;
 
@@ -287,5 +287,5 @@ else if (salarioBase >= 4664.69){
 else {
     console.log("Erro no resultado do salario liquido, veja se não colocou algum valor errado.");
 }
-console.log("O valor do salário líquido com seus devidos descontos <INSS e IR> R$" + salarioIr);
+console.log("O valor do salário líquido com seus devidos descontos <INSS e IR> R$" + salarioIr.toFixed(2));
 
