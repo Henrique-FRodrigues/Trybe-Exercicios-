@@ -44,7 +44,7 @@ console.log(descubraMaior);
 
 console.log("------------------------------------------------");
 
-//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, 
+//exercicio 6.Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, 
 //imprima a mensagem: “nenhum valor ímpar encontrado”; 
 
 let imprimaImpar = 0;
@@ -59,7 +59,7 @@ if (imprimaImpar%2 === 0){
  
 console.log("------------------------------------------------");
 
-//Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+//exercicio 7.Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
 let minium = descubraMaior;
 for (let descobrindoMenor = 0; descobrindoMenor < numbers.length; descobrindoMenor +=1){
@@ -69,3 +69,36 @@ for (let descobrindoMenor = 0; descobrindoMenor < numbers.length; descobrindoMen
     }
 }
 console.log(minium);
+
+console.log("------------------------------------------------");
+
+//exercicio 8.Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+let incrementar = [];
+for (let indexIncrementar = 1; indexIncrementar <= 25; indexIncrementar +=1){
+    incrementar.push(indexIncrementar);
+}
+console.log(incrementar);
+
+console.log("------------------------------------------------");
+
+//exercicio 9.Utilizando o array que acabou de criar, imprima o resultado da divisão de cada 
+//um dos elementos por 2
+//let dividindo = 0; >>> caso eu quissese chamar as divisões eu poderia acrescentar essa let
+for (into = 0; into < incrementar.length; into +=1){
+    //dividindo = incrementar[into] / 2;
+    //console.log(dividindo)
+    console.log(incrementar[into] / 2);
+}
+
+console.log("------------------------------------------------");
+//exercicio BONUS.Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado; 
+//Com os números dentro da array numbers
+
+let impr = [];
+for(let between = 0; between < numbers.length; between +=1){
+    
+    if (numbers[between] >= 1 && numbers[between] <= 25){
+        impr.push(numbers[between]);
+    }
+}
+console.log(impr);
