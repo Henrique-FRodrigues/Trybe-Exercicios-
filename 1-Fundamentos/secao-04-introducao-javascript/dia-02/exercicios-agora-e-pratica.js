@@ -60,3 +60,12 @@ if (imprimaImpar%2 === 0){
 console.log("------------------------------------------------");
 
 //Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+let minium = descubraMaior;
+for (let descobrindoMenor = 0; descobrindoMenor < numbers.length; descobrindoMenor +=1){
+    //minium = descubraMaior = 100 e esta fora do escopo
+    if(numbers[descobrindoMenor] < minium){
+        minium = numbers[descobrindoMenor];
+    }
+}
+console.log(minium);
