@@ -38,7 +38,25 @@ let descubraMaior = 0;
 for(let indexMaior = 0; indexMaior < numbers.length; indexMaior += 1){
  if (numbers[indexMaior] > descubraMaior){
     descubraMaior = numbers[indexMaior];
-    //console.log(descubraMaior);
  }   
+}
+console.log(descubraMaior);
 
-}console.log(descubraMaior);
+console.log("------------------------------------------------");
+
+//Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, 
+//imprima a mensagem: “nenhum valor ímpar encontrado”; 
+
+let imprimaImpar = 0;
+for(let indexImpar = 0; indexImpar < numbers.length; indexImpar += 1){
+    if (numbers[indexImpar]%2 !== 0){
+        imprimaImpar = numbers[indexImpar];
+        console.log(imprimaImpar);
+    } 
+}
+if (imprimaImpar%2 === 0){
+    console.log("Não tem valor impar");}
+ 
+console.log("------------------------------------------------");
+
+//Utilizando for, descubra qual o menor valor contido no array e imprima-o;
