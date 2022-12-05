@@ -34,4 +34,11 @@ else{
 console.log("------------------------------------------------");
 //exercicio 5.Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
-console.log(numbers.sort());
+let descubraMaior = 0;
+for(let indexMaior = 0; indexMaior < numbers.length; indexMaior += 1){
+ if (numbers[indexMaior] > descubraMaior){
+    descubraMaior = numbers[indexMaior];
+    //console.log(descubraMaior);
+ }   
+
+}console.log(descubraMaior);
