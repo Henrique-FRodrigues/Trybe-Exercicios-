@@ -6,9 +6,13 @@
 #subititulo{
     text-align: center;
 }
-
+.chamando-atenção{
+    background-color: rgba(18, 136, 7, 0.555);
+    text-align: center;
+}
 #id-imagem{
     margin-left: 65%;
+    border-radius: 9%;
 }
 #centralizando-textos{
     text-align: left;
