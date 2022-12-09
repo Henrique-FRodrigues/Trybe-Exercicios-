@@ -1,0 +1,15 @@
+#centralizando{
+    text-align: center;
+    font-size: 80px;
+    color: green;
+}
+#subititulo{
+    text-align: center;
+}
+
+#centralizando-textos{
+    text-align: left;
+    color: rgb(3, 66, 13);
+    border: 2px;
+    font-size: 40px;
+}
