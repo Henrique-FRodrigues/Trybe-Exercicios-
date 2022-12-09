@@ -7,9 +7,19 @@
     text-align: center;
 }
 
+#id-imagem{
+    margin-left: 65%;
+}
 #centralizando-textos{
     text-align: left;
     color: rgb(3, 66, 13);
     border: 2px;
     font-size: 40px;
+    margin-left: 3%;
+}
+#link-para-foto{ 
+    text-align: right;
+    font-size: 30px;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
