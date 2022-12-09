@@ -58,7 +58,7 @@ let somandoTudo = 0;
 for(let indexSoma = 0; indexSoma <= somaDeTudo; indexSoma +=1){
     somandoTudo += indexSoma;
 };
-console.log(somandoTudo);
+console.log(">>>" + somandoTudo);
 
 console.log("---------------------------");
 
@@ -71,7 +71,7 @@ for (indexTudo = 0; indexTudo < items.length && indexTudo < prices.length; index
 let numebrPi = 3.2554888;
 console.log(numebrPi.toFixed(2));
 
-/ // Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+// Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
 // const n=5;
 // let asterisco=[];
 
